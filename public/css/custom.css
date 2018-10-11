@@ -1,0 +1,49 @@
+.logo{
+    opacity: 0.75;
+}
+
+body{
+
+    background: url('/img/login-bg.jpg')  center / cover;
+    margin: 0;
+    color: #111;
+    font: 400  12px/1 'Poppins', sans-serif;
+    background-color: #f4f6f8;
+
+}
+.form-group{
+    color: #5e5d5d;
+    text-shadow: 1px 1px 1px #ffff;
+}
+.form-wrapper{
+    text-shadow: 2px 2px 2px #ffff;
+    height: 100vh;
+    overflow-y: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 50px 0;
+
+}
+.links > a {
+    color: #fff;
+    padding: 0 25px;
+    font-size: 12px;
+    font-weight: 600;
+
+    letter-spacing: .1rem;
+    text-decoration: none;
+    text-transform: uppercase;
+
+}
+a:hover{
+    -webkit-transition: .3s ease-out;
+    -webkit-transition-delay: 0.9s;
+
+
+    border-radius: 15px;
+    text-shadow: 1px 1px 2px #999, 0 0 1em #5660ff;
+}
+
+
